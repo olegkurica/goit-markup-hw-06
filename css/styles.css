@@ -834,7 +834,6 @@ img {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     width: 408px;
-    height: 584px;
     padding: 72px 24px 24px 24px;
 }
 
@@ -864,6 +863,7 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 360px;
 }
 
 .modal-form-title {
@@ -987,7 +987,6 @@ img {
     position: relative;
     margin-bottom: 8px;
     width: 100%;
-    height: 58px;
     fill: var(--main-color);
 }
 
@@ -996,19 +995,14 @@ img {
     position: relative;
     margin-bottom: 16px;
     width: 100%;
-    height: 138px;
     font-size: 18px;
 }
 
 .modal-form-icon {
     position: absolute;
-    bottom: 8px;
+    bottom: 13px;
     left: 16px;
     transition: fill var(--fast-amim);
-}
-
-.modal-form-group {
-    width: 360px;
 }
 
 .modal-form-checkbox {
@@ -1022,7 +1016,7 @@ img {
 }
 
 .modal-form-checkbox:checked {
-    background-image: url("/images/checkbox.svg");
+    background-image: url("../images/checkbox.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--iris-color);
